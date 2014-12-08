@@ -52,4 +52,4 @@ df.train$SameTicket <- df.train$Ticket %in% TicketList
 ## map missing data by provided feature
 require(Amelia)
 missmap(df.train, main="Titanic Training Data - Missings Map", 
-        col=c("yellow", "black"), legend=FALSE)
+        col=c("yellow", "black"), legend=TRUE)
